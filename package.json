@@ -21,14 +21,15 @@
     "react-scripts": "5.0.0",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
