@@ -50,7 +50,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/data"
@@ -58,7 +58,7 @@ function NavBar() {
               >
                 <HiOutlineDatabase style={{ marginBottom: "2px" }} /> My Data Content
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
             <Nav.Item>
               <Nav.Link
                 as={Link}

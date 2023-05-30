@@ -43,7 +43,7 @@ function Home() {
                 <u>Data Engineer</u> from Canada&nbsp;
                 <FaCanadianMapleLeaf className="canada" />
               </h4>
-              <p className="heading-description">I'm logging my Data journey on Youtube & I teach Algorithms + SQL daily on my second channel.</p>
+              <p className="heading-description">I've started logging my Data journey on Youtube & I solve daily LeetCode problems (Python/ SQL) on my second channel.</p>
               <Row>
                 <Col md={8}>
                   <div className="linkedin-container" onClick={redirectToLinkedIn}
@@ -88,7 +88,7 @@ function Home() {
               imgPath={dataWithCarterImg}
               title="dataWithCarter"
               icon={<AiFillYoutube style={{ color: "white" }} />}
-              link={"https://www.youtube.com/@dataWithCarter/videos"}
+              link={"https://www.youtube.com/@datawithcartermaclennan"}
             />
           </Col>
           <Col md={9} lg={4} className="project-card center">
