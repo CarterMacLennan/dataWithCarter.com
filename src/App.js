@@ -27,7 +27,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/index.html">
+    <Router basename="/dataWithCarter">
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <NavBar/>
