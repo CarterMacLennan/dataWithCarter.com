@@ -6,7 +6,7 @@ import leetCodeWithCarterImg from "../../Assets/Projects/leetcodeWithCarter.png"
 import dataWithCarterImg from "../../Assets/Projects/dataWithCarter.png";
 import linkedin from "../../Assets/linkedin.png";
 import mediumImg from "../../Assets/Projects/medium.png";
-import { AiFillYoutube, AiFillMediumSquare } from "react-icons/ai";
+import { AiFillYoutube, AiFillGithub, AiFillMediumSquare } from "react-icons/ai";
 import ProjectCard from "../Data/ProjectCards";
 import NavBar from "../Navbar";
 
@@ -43,7 +43,7 @@ function Home() {
                 <u>Data Engineer</u> from Canada&nbsp;
                 <FaCanadianMapleLeaf className="canada" />
               </h4>
-              <p className="heading-description">I've started logging my Data journey on Youtube & I solve daily LeetCode problems (Python/ SQL) on my second channel.</p>
+              <p className="heading-description">Trying to give back to the dev community!</p>
               <Row>
                 <Col md={8}>
                   <div className="linkedin-container" onClick={redirectToLinkedIn}
@@ -78,7 +78,7 @@ function Home() {
           <Col md={9} lg={4} className="project-card center">
             <ProjectCard
               imgPath={leetCodeWithCarterImg}
-              title={"leetCodeWithCarter"}
+              title={"Teaching on YouTube"}              
               icon={<AiFillYoutube style={{ color: "white" }} />}
               link={"https://www.youtube.com/@leetcodeWithCarter/videos"}
             />
@@ -86,9 +86,9 @@ function Home() {
           <Col md={9} lg={4} className="project-card center">
             <ProjectCard
               imgPath={dataWithCarterImg}
-              title="dataWithCarter"
-              icon={<AiFillYoutube style={{ color: "white" }} />}
-              link={"https://www.youtube.com/@datawithcartermaclennan"}
+              title="Knowledge Sharing on GitHub"
+              icon={<AiFillGithub style={{ color: "white" }} />}
+              link={"https://github.com/CarterMacLennan/knowledge-sharing"}
             />
           </Col>
           <Col md={9} lg={4} className="project-card center">
