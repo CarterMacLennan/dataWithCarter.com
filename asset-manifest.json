@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.a48b000d.css",
-    "main.js": "/static/js/main.f67993be.js",
+    "main.js": "/static/js/main.72103749.js",
     "static/media/narendraL.png": "/static/media/narendraL.228a772cd23df8247e54.png",
-    "static/media/youtube.png": "/static/media/youtube.7d9f8f202cbfd9f45495.png",
+    "static/media/fundamentals.png": "/static/media/fundamentals.75340577587369d6fff6.png",
     "static/media/gauravSen.png": "/static/media/gauravSen.866c9d46db04aad9e024.png",
     "static/media/memoji.png": "/static/media/memoji.7aba1b5f6c72df007cfa.png",
     "static/media/myArchitecture.png": "/static/media/myArchitecture.2c4856b59afaeea889d2.png",
-    "static/media/knowledgeSharing.png": "/static/media/knowledgeSharing.8174f7bb6cee7d601b1a.png",
+    "static/media/advancedTopics.png": "/static/media/advancedTopics.3c82621ebc740087da83.png",
     "static/media/mattWeingarten.png": "/static/media/mattWeingarten.32be66b23c3a854d36fa.png",
     "static/media/linkedin.png": "/static/media/linkedin.e15ef857182e9f5b2cf1.png",
     "static/media/apacheSpark.png": "/static/media/apacheSpark.91184616e225a3aeddad.png",
@@ -23,10 +23,10 @@
     "static/media/pre.svg": "/static/media/pre.ab1fbe1033bb43050d60.svg",
     "index.html": "/index.html",
     "main.a48b000d.css.map": "/static/css/main.a48b000d.css.map",
-    "main.f67993be.js.map": "/static/js/main.f67993be.js.map"
+    "main.72103749.js.map": "/static/js/main.72103749.js.map"
   },
   "entrypoints": [
     "static/css/main.a48b000d.css",
-    "static/js/main.f67993be.js"
+    "static/js/main.72103749.js"
   ]
 }
