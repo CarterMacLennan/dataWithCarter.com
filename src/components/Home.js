@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import memoji from "../Assets/Home/memoji.png";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
-import youtube from "../Assets/Projects/youtube.png";
-import knowledgeSharing from "../Assets/Projects/knowledgeSharing.png";
+import fundamentals from "../Assets/Projects/fundamentals.png";
+import advancedTopics from "../Assets/Projects/advancedTopics.png";
 import linkedin from "../Assets/Home/linkedin.png";
 import apacheSpark from "../Assets/Projects/apacheSpark.png";
 import { AiFillYoutube, AiFillGithub, AiFillMediumSquare } from "react-icons/ai";
@@ -75,7 +75,7 @@ function Home() {
         <Row>
           <Col md={9} lg={4} className="project-card center">
             <ProjectCard
-              imgPath={youtube}
+              imgPath={fundamentals}
               title={"Fundamentals on YouTube"}              
               icon={<AiFillYoutube style={{ color: "white" }} />}
               link={"https://www.youtube.com/@leetcodeWithCarter/videos"}
@@ -91,7 +91,7 @@ function Home() {
           </Col>
           <Col md={9} lg={4} className="project-card center">
             <ProjectCard
-              imgPath={knowledgeSharing}
+              imgPath={advancedTopics}
               title="Advanced Topics on GitHub"
               icon={<AiFillGithub style = {{ color: "white" }} />}
               link={"https://github.com/CarterMacLennan/knowledge-sharing"}
