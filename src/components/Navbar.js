@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import { AiOutlineHome } from "react-icons/ai";
-import { HiOutlineDatabase, HiCode } from "react-icons/hi";
 import { BiBookmarkHeart } from "react-icons/bi"
 
 function NavBar() {

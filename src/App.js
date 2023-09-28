@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import NavBar from "./components/Navbar";
-import Home from "./components/Home/Home";
-import Bookmarks from "./components/Bookmarks/Bookmarks";
-import Data from "./components/Data/Data";
+import Home from "./components/Home";
+import Bookmarks from "./components/Bookmarks";
 import {
   BrowserRouter as Router,
   Route,
@@ -34,7 +33,6 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/data" element={<Data />} />
           <Route path="/bookmarks" element={<Bookmarks />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import memoji from "../../Assets/memoji.png";
+import memoji from "../Assets/Home/memoji.png";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
-import leetCodeWithCarterImg from "../../Assets/Projects/leetcodeWithCarter.png";
-import dataWithCarterImg from "../../Assets/Projects/dataWithCarter.png";
-import linkedin from "../../Assets/linkedin.png";
-import mediumImg from "../../Assets/Projects/medium.png";
+import youtube from "../Assets/Projects/youtube.png";
+import knowledgeSharing from "../Assets/Projects/knowledgeSharing.png";
+import linkedin from "../Assets/Home/linkedin.png";
+import apacheSpark from "../Assets/Projects/apacheSpark.png";
 import { AiFillYoutube, AiFillGithub, AiFillMediumSquare } from "react-icons/ai";
-import ProjectCard from "../Data/ProjectCards";
-import NavBar from "../Navbar";
+import ProjectCard from "./ProjectCards";
 
 function Home() {
   const redirectToLinkedIn = () => {
@@ -77,7 +76,15 @@ function Home() {
         <Row>
           <Col md={9} lg={4} className="project-card center">
             <ProjectCard
-              imgPath={leetCodeWithCarterImg}
+              imgPath={knowledgeSharing}
+              title="Knowledge Sharing on GitHub"
+              icon={<AiFillGithub style = {{ color: "white" }} />}
+              link={"https://github.com/CarterMacLennan/knowledge-sharing"}
+            />
+          </Col>
+          <Col md={9} lg={4} className="project-card center">
+            <ProjectCard
+              imgPath={youtube}
               title={"Teaching on YouTube"}              
               icon={<AiFillYoutube style={{ color: "white" }} />}
               link={"https://www.youtube.com/@leetcodeWithCarter/videos"}
@@ -85,16 +92,8 @@ function Home() {
           </Col>
           <Col md={9} lg={4} className="project-card center">
             <ProjectCard
-              imgPath={dataWithCarterImg}
-              title="Knowledge Sharing on GitHub"
-              icon={<AiFillGithub style={{ color: "white" }} />}
-              link={"https://github.com/CarterMacLennan/knowledge-sharing"}
-            />
-          </Col>
-          <Col md={9} lg={4} className="project-card center">
-            <ProjectCard
-              imgPath={mediumImg}
-              title="Medium Blogs"
+              imgPath={apacheSpark}
+              title="Apache Spark Blogs"
               icon={<AiFillMediumSquare style={{ color: "white" }} />}
               link={"https://medium.com/@cartermaclennan"}
             />
