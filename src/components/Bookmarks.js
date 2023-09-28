@@ -38,7 +38,7 @@ function Bookmarks() {
               <ProjectCard
                 imgPath={myArchitecture}
                 title="AWS Architecture Series"
-                link={"https://www.youtube.com/watch?v=H_S7CxtHgSM&list=PLhr1KZpdzukdeX8mQ2qO73bg6UKQHYsHb"}
+                link={"https://aws.amazon.com/architecture"}
               />
             </Col>
             <Col md={9} lg={4} className="project-card center">
