@@ -258,11 +258,6 @@ button:focus {
     padding-top: 20px !important;
   }
 
-  .heading-description {
-    font-size: 0.8em !important;
-    margin-bottom: 8;
-  }
-
   .memoji-desktop {
     display: None !important;
   }
@@ -312,11 +307,6 @@ button:focus {
   .heading-subtitle {
     font-size: 1.3em !important;
     padding-top: 20px !important;
-  }
-
-  .heading-description {
-    font-size: 0.8em !important;
-    margin-bottom: 8;
   }
 
   .memoji-mobile {
@@ -369,12 +359,6 @@ button:focus {
     padding-left: 20px !important;
   }
 
-  .heading-description {
-    font-size: 0.8em !important;
-    margin-bottom: 8;
-    padding-left: 20px !important;
-  }
-
   .memoji-mobile {
     display: None !important;
   }
@@ -418,11 +402,6 @@ button:focus {
   .heading-subtitle {
     font-size: 1.8em !important;
     padding-left: 50px !important;
-  }
-  .heading-description {
-    font-size: 1.1em !important;
-    padding-left: 50px !important;
-    margin-bottom: 8;
   }
 
   .memoji-desktop {

@@ -42,7 +42,6 @@ function Home() {
                 <u>Data Engineer</u> from Canada&nbsp;
                 <FaCanadianMapleLeaf className="canada" />
               </h4>
-              <p className="heading-description">Trying to give back to the dev community!</p>
               <Row>
                 <Col md={8}>
                   <div className="linkedin-container" onClick={redirectToLinkedIn}
