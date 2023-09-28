@@ -75,14 +75,6 @@ function Home() {
         <Row>
           <Col md={9} lg={4} className="project-card center">
             <ProjectCard
-              imgPath={knowledgeSharing}
-              title="Advanced Topics on GitHub"
-              icon={<AiFillGithub style = {{ color: "white" }} />}
-              link={"https://github.com/CarterMacLennan/knowledge-sharing"}
-            />
-          </Col>
-          <Col md={9} lg={4} className="project-card center">
-            <ProjectCard
               imgPath={youtube}
               title={"Fundamentals on YouTube"}              
               icon={<AiFillYoutube style={{ color: "white" }} />}
@@ -95,6 +87,14 @@ function Home() {
               title="Apache Spark Internals on Medium"
               icon={<AiFillMediumSquare style={{ color: "white" }} />}
               link={"https://medium.com/@cartermaclennan"}
+            />
+          </Col>
+          <Col md={9} lg={4} className="project-card center">
+            <ProjectCard
+              imgPath={knowledgeSharing}
+              title="Advanced Topics on GitHub"
+              icon={<AiFillGithub style = {{ color: "white" }} />}
+              link={"https://github.com/CarterMacLennan/knowledge-sharing"}
             />
           </Col>
         </Row>
