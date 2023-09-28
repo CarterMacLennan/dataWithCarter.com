@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.c544d851.css",
-    "main.js": "/static/js/main.8455c8c3.js",
+    "main.js": "/static/js/main.ee738231.js",
     "static/media/narendraL.png": "/static/media/narendraL.228a772cd23df8247e54.png",
     "static/media/youtube.png": "/static/media/youtube.7d9f8f202cbfd9f45495.png",
+    "static/media/gauravSen.png": "/static/media/gauravSen.866c9d46db04aad9e024.png",
     "static/media/memoji.png": "/static/media/memoji.7aba1b5f6c72df007cfa.png",
     "static/media/myArchitecture.png": "/static/media/myArchitecture.2c4856b59afaeea889d2.png",
     "static/media/knowledgeSharing.png": "/static/media/knowledgeSharing.8174f7bb6cee7d601b1a.png",
     "static/media/mattWeingarten.png": "/static/media/mattWeingarten.32be66b23c3a854d36fa.png",
-    "static/media/seattleDataGuy.png": "/static/media/seattleDataGuy.cfd7a27d6ee2ecaa698a.png",
-    "static/media/kahan.png": "/static/media/kahan.91bd65deea3ca6d0d3a8.png",
     "static/media/linkedin.png": "/static/media/linkedin.e15ef857182e9f5b2cf1.png",
     "static/media/apacheSpark.png": "/static/media/apacheSpark.91184616e225a3aeddad.png",
+    "static/media/freeCodeCamp.png": "/static/media/freeCodeCamp.7e80141731d7d32fc667.png",
     "static/media/home-bg-lg.png": "/static/media/home-bg-lg.284f1de5c09ecf30a231.png",
     "static/media/stratascratch.png": "/static/media/stratascratch.228cf0e128033f17356d.png",
     "static/media/byteByteGo.png": "/static/media/byteByteGo.cba8ce773fb0b741c5dc.png",
@@ -23,10 +23,10 @@
     "static/media/pre.svg": "/static/media/pre.ab1fbe1033bb43050d60.svg",
     "index.html": "/index.html",
     "main.c544d851.css.map": "/static/css/main.c544d851.css.map",
-    "main.8455c8c3.js.map": "/static/js/main.8455c8c3.js.map"
+    "main.ee738231.js.map": "/static/js/main.ee738231.js.map"
   },
   "entrypoints": [
     "static/css/main.c544d851.css",
-    "static/js/main.8455c8c3.js"
+    "static/js/main.ee738231.js"
   ]
 }
