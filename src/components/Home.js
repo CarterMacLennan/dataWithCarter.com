@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import memoji from "../Assets/Home/memoji.png";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
 import fundamentals from "../Assets/Projects/fundamentals.png";
-import advancedTopics from "../Assets/Projects/advancedTopics.png";
+import advancedTopics from "../Assets/Projects/advancedTopicsSoon.png";
 import linkedin from "../Assets/Home/linkedin.png";
-import apacheSpark from "../Assets/Projects/apacheSpark.png";
+import apacheSpark from "../Assets/Projects/apacheSparkSoon.png";
 import { AiFillYoutube, AiFillGithub, AiFillMediumSquare } from "react-icons/ai";
 import ProjectCard from "./ProjectCards";
 
