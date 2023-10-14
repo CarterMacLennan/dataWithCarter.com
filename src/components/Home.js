@@ -76,7 +76,7 @@ function Home() {
           <Col md={9} lg={4} className="project-card center">
             <ProjectCard
               imgPath={fundamentals}
-              title={"Fundamentals on YouTube"}              
+              title={"Algorithms/ Data Content"}              
               icon={<AiFillYoutube style={{ color: "white" }} />}
               link={"https://www.youtube.com/@dataWithCarter/videos"}
             />
@@ -84,7 +84,7 @@ function Home() {
           <Col md={9} lg={4} className="project-card center">
             <ProjectCard
               imgPath={apacheSpark}
-              title="Apache Spark Internals on Medium"
+              title="Apache Spark Blogs"
               icon={<AiFillMediumSquare style={{ color: "white" }} />}
               link={"https://medium.com/@cartermaclennan"}
             />
@@ -92,7 +92,7 @@ function Home() {
           <Col md={9} lg={4} className="project-card center">
             <ProjectCard
               imgPath={advancedTopics}
-              title="Open-Sourcing my Notes on GitHub"
+              title="My Data Engineering Notes"
               icon={<AiFillGithub style = {{ color: "white" }} />}
               link={"https://github.com/CarterMacLennan/knowledge-sharing"}
             />
