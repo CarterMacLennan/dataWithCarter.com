@@ -78,7 +78,7 @@ function Home() {
               imgPath={fundamentals}
               title={"Fundamentals on YouTube"}              
               icon={<AiFillYoutube style={{ color: "white" }} />}
-              link={"https://www.youtube.com/@leetcodeWithCarter/videos"}
+              link={"https://www.youtube.com/@dataWithCarter/videos"}
             />
           </Col>
           <Col md={9} lg={4} className="project-card center">
