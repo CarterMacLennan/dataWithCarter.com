@@ -92,7 +92,7 @@ function Home() {
           <Col md={9} lg={4} className="project-card center">
             <ProjectCard
               imgPath={advancedTopics}
-              title="Advanced Topics on GitHub"
+              title="Open-Sourcing my Notes on GitHub"
               icon={<AiFillGithub style = {{ color: "white" }} />}
               link={"https://github.com/CarterMacLennan/knowledge-sharing"}
             />
